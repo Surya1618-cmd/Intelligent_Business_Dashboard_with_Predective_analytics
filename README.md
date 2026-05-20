@@ -1,99 +1,99 @@
- # Robot Arm Movement Optimization using Q-Learning
+# Intelligent Business Dashboard with Predictive Analytics
 
 ## Overview
-This project focuses on optimizing robotic arm movements using Reinforcement Learning (Q-Learning). The system trains an intelligent agent to learn efficient movement paths and improve positioning accuracy through reward-based learning.
+This project is a real-time business analytics dashboard designed to support data-driven decision-making through predictive analytics and interactive visualizations.
 
-The project simulates robotic arm control where the agent learns optimal actions to minimize movement cost, reduce execution time, and improve overall efficiency.
+The dashboard integrates multiple datasets including sales, marketing, customer, inventory, ecommerce, and website analytics data to provide actionable business insights.
 
 ---
 
 ## Problem Statement
-Traditional robotic arm movement systems often rely on predefined movement sequences that may not be optimal in dynamic environments.
+Businesses often struggle to analyze large amounts of operational data efficiently and generate predictive insights for decision-making.
 
-This project aims to use Reinforcement Learning to:
-- Optimize robotic arm trajectories
-- Reduce unnecessary movements
-- Improve positioning accuracy
-- Minimize execution time
+This project aims to:
+- Centralize business analytics
+- Provide interactive visualizations
+- Predict future sales revenue
+- Support business intelligence workflows
 
 ---
 
 ## Features
-- Q-Learning based optimization
-- Reward-driven learning mechanism
-- Robotic arm movement simulation
-- Trajectory optimization
-- State-action learning
-- Performance evaluation and convergence analysis
-- Experimental reinforcement learning pipeline
+- Interactive business dashboard
+- Sales revenue prediction
+- Real-time analytics visualization
+- Multi-dataset integration
+- Filtering and drill-down analysis
+- Predictive analytics system
+- Streamlit-based UI
 
 ---
 
 ## Technologies Used
 - Python
+- Streamlit
+- Machine Learning
+- Scikit-learn
+- Pandas
 - NumPy
 - Matplotlib
-- Reinforcement Learning
-- Q-Learning
-- Jupyter Notebook
+- Seaborn
+- SQLite
 
 ---
 
-## Reinforcement Learning Approach
+## Machine Learning Approach
+The project uses a Random Forest Regression model to predict sales revenue based on business and customer-related features.
 
-### State
-Represents the current position/state of the robotic arm.
-
-### Actions
-Possible movements the robotic arm can take.
-
-### Reward Function
-The agent receives rewards based on:
-- Efficient movement
-- Reduced movement cost
-- Faster task completion
-- Accurate positioning
-
-### Goal
-Train the agent to learn the optimal sequence of actions for efficient robotic arm movement.
+The workflow includes:
+- Data preprocessing
+- Feature engineering
+- Model training
+- Model evaluation
+- Predictive inference
 
 ---
 
 ## Results
-- Improved movement efficiency through Q-Learning
-- Reduced unnecessary robotic arm movements
-- Achieved optimized trajectory planning
-- Demonstrated convergence behavior during training
+- Achieved R² score of 0.89 for revenue prediction
+- Improved business analytics workflow
+- Integrated 7 heterogeneous datasets
+- Reduced dashboard loading time using caching and optimized processing
 
 ---
 
 ## Screenshots
 
-### Training Visualization
-![Training Graph](assets/training-graph.png)
+### Dashboard Home
+![Dashboard](assets/dashboard-home.png)
 
-### Robot Arm Simulation
-![Robot Simulation](assets/robot-simulation.png)
+### Analytics Visualization
+![Analytics](assets/analytics-visualization.png)
 
-### Reward Curve
-![Reward Curve](assets/reward-curve.png)
+### Prediction Results
+![Prediction](assets/prediction-results.png)
+
+---
+
+## Demo Video
+Add your YouTube demo link here.
 
 ---
 
 ## Future Improvements
-- Deep Q-Learning implementation
-- Real-time robotic arm integration
-- Multi-agent reinforcement learning
-- Advanced motion planning
-- 3D robotic simulation environment
+- Real-time cloud database integration
+- Advanced forecasting models
+- Customer churn prediction
+- Automated reporting system
+- Live API integration
 
 ---
 
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/robot-arm-qlearning-optimization.git
-cd robot-arm-qlearning-optimization
+git clone https://github.com/your-username/business-dashboard-predictive-analytics.git
+cd business-dashboard-predictive-analytics
 
 pip install -r requirements.txt
 ```
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 ## Run the Project
 
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 ---
