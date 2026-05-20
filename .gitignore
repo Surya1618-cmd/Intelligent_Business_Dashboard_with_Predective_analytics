@@ -1,0 +1,10 @@
+# Large files
+*.db
+*.pkl
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
