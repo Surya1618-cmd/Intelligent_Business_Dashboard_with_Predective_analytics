@@ -1,0 +1,12 @@
+import sqlite3
+
+conn = sqlite3.connect("database.db")
+cursor = conn.cursor()
+
+cursor.execute("DROP TABLE IF EXISTS sales")
+cursor.execute("DROP TABLE IF EXISTS marketing")
+cursor.execute("DROP TABLE IF EXISTS website_analytics")
+
+conn.commit()
+conn.close()
+print("✅ Old tables removed from database.")
