@@ -18,7 +18,7 @@ This project aims to:
 
 ---
 
-## Features
+# 🚀 Features
 - Interactive business dashboard
 - Sales revenue prediction
 - Real-time analytics visualization
